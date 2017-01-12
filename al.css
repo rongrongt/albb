@@ -1,0 +1,241 @@
+
+
+
+
+
+.banner{
+	height: 1050px;
+	background: url(./alimg/banner.png);
+	background-position: -290px 0;
+	
+}
+.banner .ban-sch{
+	width:483px;
+	height: 394px;
+	position: relative;
+	top: 170px;
+	left: 555px;
+	background: url(./alimg/back.png);
+}
+.cent-wrap{
+	width:990px;
+	
+	margin: -455px auto 0; 
+	
+	
+}
+.cent-box{
+	background:url(./alimg/bggcent.png);
+	float:left;
+	font-size: 18px;
+	color:#434343;
+	height: 300px;
+	width: 485px
+}
+.cent-one{
+	margin-right: 20px;
+}
+.cent-in{
+	background: #fff;
+	display: inline-block;
+	width:280px;
+	height:280px;
+	line-height: 280px;
+	vertical-align: top;
+	text-align: center;
+	margin:10px;
+	overflow: hidden;
+}
+.cent-bb{
+	vertical-align: middle;
+}
+.cent-de{
+	vertical-align: top;
+	display: inline-block;
+	width: 165px;
+	padding: 40px 15px 115px 0;
+	
+}
+.details-name{
+	display: block;
+	height: 44px;
+	font-size:18px;
+	line-height: 25px;
+	
+	margin-bottom: 15px;
+
+}
+.cent-box .price{
+	font-size: 30px;
+	color:#ff6500;
+	margin-bottom: 30px;
+}
+
+.cent-box .p-shop{
+	display: inline-block;
+	color:#fff;
+	background-color:#ff6500;
+	padding: 10px;
+}
+
+
+.cent-wrap .offer{
+	margin-top:10px;
+
+}
+.nt-hd{
+	color:#fff;
+	width: 990px;	
+	text-align: justify;
+	margin:30px auto 0;
+}
+.nt-hd:after{
+	content:"";
+	display: inline-block;
+	width: 100%;
+	height: 0;
+}
+
+
+.new-tech .tech-view,
+.huge-view{
+	background: url(./alimg/bg-new.png);
+	height: 70px;
+	position: relative;
+
+
+
+}
+
+.new-tech .tech-more,
+.huge-more{
+	display: block;
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+	color:#fff;
+	
+}
+.tech-more .more-jt,
+.huge-more .more-jt{
+	display: inline-block;
+	width: 0;
+	height: 0;
+	border: 4px solid transparent;
+	border-left-color: #fff;  
+}
+.tech-products {
+	display: inline-block;
+	margin-bottom: 10px;
+
+}
+.tech-products .products-show{
+	width: 220px;
+	height: 220px;
+	line-height: 220px;
+	overflow: hidden;
+	padding: 10px;
+	background: #fff;
+	text-align: center;
+
+}
+.products-show .products-img{
+	vertical-align: middle;
+}
+
+.products-inform{
+	width: 220px;
+	height:90px;
+	padding: 10px;
+	line-height: 20px;	
+	position: relative;
+}
+.products-blank{
+	width: 220px;
+	height:90px;
+	padding: 10px;
+	margin-bottom: -110px;
+	background-color: #1a3326;
+	opacity: 0.5;
+}
+.products-inform .pie-us{
+	font-size:22px;
+	line-height: 25px;
+	color:#ff6500;
+
+}
+.products-inform .pie-none{
+	text-decoration:line-through;
+}
+
+.products-inform .buy-li{
+	margin-top: 5px;
+	display: inline-block;
+	background: #ff6500;
+	padding:0 15px;
+}
+.buy-li .buy-now{
+	color:#fff;
+	line-height: 25px;
+}
+
+.huge-discoun .huge-view{
+	background: url(./alimg/bg-huge.png);
+}
+.huge-off{
+	position: absolute;
+	right: 0;
+	top:0;
+}
+.huge-off .border-rect{
+	width: 50px;
+	height: 40px;
+	font-size:18px;
+	background: #ff6500;
+	text-align: center;
+}
+.huge-off .border-tt{
+	width:0px;
+	height: 0;
+	border:25px solid transparent;
+	border-top:12.5px solid #ff6500;
+
+
+}
+.huge-discoun{
+	margin-top:20px;
+}
+.huge-products{
+	position: relative;
+}
+
+.works-box{
+	height:170px;
+	margin-top:50px;
+	background: url(./alimg/bg-bottom.png) -300px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

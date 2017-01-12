@@ -1,0 +1,155 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="alb.css">
+	<link rel="stylesheet" href="al.css">
+	<script src="./lib/jquery.js"></script>
+	<script src="lib/underscore.js"></script>
+	
+</head>
+<body>
+	
+	<div class="banner">
+		<div class="ban-sch"></div>
+	</div>
+	<div class="cent-wrap">
+			<img class="nav" id="nav" src="alimg/nav.png" alt="img-nav" usemap="#nav-hot">
+			<map name="nav-hot" id="nav-hot">
+				  
+  					<area shape="rectangle" coords="412,0,690,70" href="#new-tech" alt="tech">
+  					<area shape="rectangle" coords="691,0,990,70" href="#huge-discoun" alt="discoun">
+			</map>
+
+
+
+
+			<div class="cent">
+				<div class="cent-one cent-box">
+					<div class="cent-in"><img class="cent-bb" src="alimg/bb.jpeg" alt="img"></div>
+					<div class="cent-de">
+						<span class="details-name">New design smart-design</span>
+						<div class="price">US $189.00</div>
+						<a  class="p-shop" href="" targer="_blank">Get Smple</a>
+
+					</div>
+				</div>
+
+				<div class="cent-two cent-box">
+					<div class="cent-in"><img class="cent-bb" src="./alimg/bb.jpeg" alt="img"></div>
+					<div class="cent-de">
+						<span class="details-name">New design smart design bg</span>
+						<div class="price">US $189.00</div>
+						<a  class="p-shop" href="" targer="_blank">Get Smple</a>
+
+					</div>
+				</div>
+				
+			</div>
+			<img class="offer" src="./alimg/offer.png" alt="img">
+
+	</div>
+
+
+	<div class="nt-hd">
+
+			<div class="new-tech" id="new-tech">
+
+				<div class="tech-view">
+					<a href="" target="_blank" class="tech-more">
+						View More 
+						<span class="more-jt"></span>
+					</a>
+				</div>
+
+
+
+				<div id="nt-hd-products"></div>
+				<script type="text/template" id="nt-hd-template">
+				<% _.each(datas, function(item){ %>
+					<div class="tech-products">
+
+						<div class="products-show">
+							<img class="products-img" src="<%= item.imgsrc %>" alt="img">
+						</div>
+						<div class="products-blank"></div>
+						<ul class="products-inform">
+							<li class="">
+								<%= item.title %>
+							</li>
+							<li class="">
+								<span class="pie-us">US $<%= item.price %> </span>
+								<span class="pie-none">US $<%= item.oldPrice%></span>
+							</li>
+							<li class="">MOQ:<%= item.moq %>pieces</li>
+							<li class="buy-li">
+								<a href="<%= item.buyurl %>" target="_blank" class="buy-now">
+									Buy now
+								</a>
+							</li>
+						</ul>
+					</div>
+					<%})%>
+				</script>
+				
+
+				
+			
+			</div>
+
+
+			<div class="huge-discoun" id="huge-discoun">
+				<div class="huge-view">
+					<a href="" target="_blank" class="huge-more">
+						View More 
+						<span class="more-jt"></span>
+					</a>
+				</div>
+
+
+
+
+				<div id="nt-huge-products"></div>
+				<script type="text/template" id="nt-huge-template">
+				<%_.each(huges, function(item){ %>
+					<div class="tech-products huge-products" >
+
+					<div class="products-show">
+						<img class="products-img" src="<%=item.imgsrc%>" alt="img">
+					</div>
+					<div class="products-blank"></div>
+					<ul class="products-inform">
+						<li class="">
+							<%=item.title%>
+						</li>
+						<li class="">
+							<span class="pie-us">US $<%=item.price %></span>
+							<span class="pie-none">US $<%=item.oldPrice%></span>
+						</li>
+						<li class="">MOQ:<%=item.moq %>pieces</li>
+						<li class="buy-li">
+							<a href="<%=item.buyurl %>" target="_blank" class="buy-now">
+								Buy now
+							</a>
+						</li>
+					</ul>
+					<div class="huge-off">
+						<div class="border-rect">50%<br/>OFF</div>
+						<div class="border-tt"></div>
+					</div>
+				</div>
+				<%})%>
+				</script>
+
+
+
+			</div>
+
+	</div>
+	<div class="works-box">
+		
+	</div>
+	<script src="al.js"></script>
+</body>
+</html>
